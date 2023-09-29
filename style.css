@@ -1,0 +1,90 @@
+.register{
+    width: 260px;
+    border-style:solid;
+    border-width: 2px;
+    border-radius: 10px;
+    text-align: center;   
+    margin: 0 auto;
+    display: block;
+    font-family:'Times New Roman', Times, serif;
+    background: rgb(255,102,196);
+    background: linear-gradient(90deg, rgba(255,102,196,1) 0%, rgba(255,222,89,1) 100%);
+}
+.login{
+    width: 360px;
+    height: 160px;
+    border-style:solid; 
+    border-width: 2px;
+    border-radius: 10px;
+    text-align: center;   
+    margin: 0 auto;
+    display: block; 
+    font-family:'Times New Roman', Times, serif;
+    background: rgb(255,102,196);
+    background: linear-gradient(90deg, rgba(255,102,196,1) 0%, rgba(255,222,89,1) 100%);
+
+}
+.content{
+    display: flex;
+    width: 300px;
+    margin: 0 auto;
+    background-position: center;
+    border-radius: 10px;
+}
+input{
+    width: 225px;
+    text-align: center;
+    border-radius: 5px;
+}
+.variola{
+    width: 150px;
+    background-color: coral;
+    cursor: pointer;
+    border-radius: 12px;
+    
+}
+.gordo{
+    cursor: pointer;
+    color: #FF66C4;
+}
+.gordo:hover{
+    cursor: pointer;
+    color: purple;
+}
+.gemas{
+    background-color: coral;
+    position: relative;
+    left: 754px;
+    width: 75px;
+    height: 25px;
+    border-radius: 12px;
+    cursor: pointer
+}
+.gemas:hover{
+    background-color: palevioletred;
+}
+.variola:hover{
+    background-color: palevioletred;
+}
+body{
+    background: url(fotos/Graphic\ design\ is\ my\ passion.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+h1{
+    font-size: 75px;
+    height: 100px;
+    font-family: Impact, 'Haettenschweiler', 'Arial Narrow Bold', sans-serif;
+    font-weight: 500;
+}
+.cadastra{
+    background-color: coral;
+    border-radius: 10px;
+    cursor: pointer
+}
+.cadastra:hover{
+    background-color: palevioletred;
+}
+.text{
+    border-radius: 200px;
+}
